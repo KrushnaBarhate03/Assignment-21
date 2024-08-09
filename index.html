@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment-21</title>
+    <style>
+        @font-face {
+    font-family: 'DS-Digital Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DS-Digital Normal'), url('DS-DIGI.woff') format('woff');
+    }
+    
+
+        .body-container {
+            background-color: #3D3D5C;
+            height: 420px;
+            width: 450px;
+            margin: 15px auto;
+            border-radius: 20px;
+            margin-top: 25px;
+        }
+
+        .screen {
+            background-color: #A1AF77;
+            text-align: right;
+            font-family:DS-Digital Normal;
+            margin: 20px 10px;
+            font-size: 35px;
+        }
+
+        .btn-container {
+            height: 325px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+        }
+
+        .btn {
+            width: 60px;
+            text-align: center;
+            margin: 14px;
+            padding: 8px;
+            border-radius: 5px;
+            border: 2px solid black;
+            box-shadow: 0 0 2px white;
+            font-weight: bold;
+
+        }
+
+        .btn:hover {
+            background-color: #bfbfbf;
+            border: 1px solid white;
+        }
+
+        .design {
+            background-color: #cc66ff;
+            width: 60px;
+            text-align: center;
+            margin: 14px;
+            padding: 8px;
+            border-radius: 5px;
+            border: 2px solid black;
+            box-shadow: 0 0 2px white;
+            font-weight: bold;
+        }
+
+        .clear {
+            background-color: red;
+            color: white;
+            width: 60px;
+            text-align: center;
+            margin: 14px;
+            padding: 8px;
+            border-radius: 5px;
+            border: 2px solid black;
+            box-shadow: 0 0 2px white;
+            font-weight: bold;
+
+        }
+
+        .plus {
+            height: 90px;
+            margin-left: 20px;
+            width: 50px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body-container">
+        <input type="text" value="1.00" class="screen">
+        <div class="btn-container">
+            <button class=" design"> MRC </button>
+            <button class="btn"> 7 </button>
+            <button class="btn"> 4 </button>
+            <button class="btn">1 </button>
+            <button class="btn"> 0 </button>
+
+            <button class=" design"> M-</button>
+            <button class="btn"> 8 </button>
+            <button class="btn"> 5 </button>
+            <button class="btn"> 2 </button>
+            <button class="btn"> . </button>
+
+            <button class=" design"> M+ </button>
+            <button class="btn"> 9 </button>
+            <button class="btn"> 6 </button>
+            <button class="btn"> 3 </button>
+            <button class="btn"> +/- </button>
+
+            <button class=" design"> CE</button>
+            <button class=" design"> % </button>
+            <button class=" design"> X </button>
+            <button class=" design plus"> + </button>
+
+            <button class=" clear"> ON/c</button>
+            <button class=" design">√ </button>
+            <button class=" design"> / </button>
+            <button class="design"> - </button>
+            <button class=" design"> = </button>
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
